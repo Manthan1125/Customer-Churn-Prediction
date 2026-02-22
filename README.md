@@ -1,54 +1,52 @@
-📊 Customer Churn Prediction
+
+# 📊 Customer Churn Prediction
 
 Analyze. Predict. Retain.
 A complete end-to-end Machine Learning project focused on identifying customers likely to churn using structured business-driven data and predictive analytics.
 
-🚀 Project Overview
+---
+
+## 🚀 Project Overview
 
 Customer churn directly impacts revenue and long-term business sustainability.
 This project demonstrates a full machine learning workflow to analyze customer behavior and predict churn probability.
 
 Unlike basic ML demos, this project includes:
 
-Self-structured dataset design
-
-Business-oriented feature engineering
-
-Model comparison & evaluation
-
-Performance interpretation for decision-making
+* Self-structured dataset design
+* Business-oriented feature engineering
+* Model comparison & evaluation
+* Performance interpretation for decision-making
 
 The goal is to help businesses take proactive retention actions using predictive analytics.
 
-📈 Key Features & Insights
+---
 
-📊 Custom-designed churn dataset
+## 📈 Key Features & Insights
 
-🔍 Exploratory Data Analysis (EDA)
+* 📊 Custom-designed churn dataset
+* 🔍 Exploratory Data Analysis (EDA)
+* 🧠 Multiple classification model comparison
+* 📉 Confusion Matrix & performance metrics
+* 📌 Business-oriented interpretation of results
+* 📈 Data-driven decision support
 
-🧠 Multiple classification model comparison
+---
 
-📉 Confusion Matrix & performance metrics
+## 📊 Business Metrics Evaluated
 
-📌 Business-oriented interpretation of results
+* Customer Retention Rate
+* Churn Probability
+* Feature Importance
+* Model Accuracy
+* Precision & Recall
+* F1-Score
 
-📈 Data-driven decision support
+---
 
-📊 Business Metrics Evaluated
+## 📂 Folder Structure
 
-Customer Retention Rate
-
-Churn Probability
-
-Feature Importance
-
-Model Accuracy
-
-Precision & Recall
-
-F1-Score
-
-📂 Folder Structure
+```
 Customer-Churn-Prediction/
 ├── data/                  # Raw & processed datasets
 │   ├── raw/
@@ -64,97 +62,113 @@ Customer-Churn-Prediction/
 ├── requirements.txt       # Project dependencies
 ├── README.md              # Project documentation
 └── .gitignore
-🛠️ Tech Stack
-Tool / Library	Purpose
-Python	Core programming
-Pandas	Data manipulation
-NumPy	Numerical computation
-Matplotlib	Data visualization
-Scikit-learn	Machine Learning models
-Jupyter Notebook	Experimentation & workflow
-📌 Workflow Breakdown
-1️⃣ Data Structuring
+```
 
-Designed a dataset simulating real-world customer attributes
+---
 
-Defined churn indicator variable
+## 🛠️ Tech Stack
 
-2️⃣ Data Cleaning
+| Tool / Library       | Purpose                    |
+| -------------------- | -------------------------- |
+| **Python**           | Core programming           |
+| **Pandas**           | Data manipulation          |
+| **NumPy**            | Numerical computation      |
+| **Matplotlib**       | Data visualization         |
+| **Scikit-learn**     | Machine Learning models    |
+| **Jupyter Notebook** | Experimentation & workflow |
 
-Handled missing values
+---
 
-Encoded categorical variables
+## 📌 Workflow Breakdown
 
-Standardized numerical features
+### 1️⃣ Data Structuring
 
-3️⃣ Exploratory Data Analysis
+* Designed a dataset simulating real-world customer attributes
+* Defined churn indicator variable
 
-Identified churn distribution
+### 2️⃣ Data Cleaning
 
-Visualized high-risk segments
+* Handled missing values
+* Encoded categorical variables
+* Standardized numerical features
 
-Compared behavioral patterns
+### 3️⃣ Exploratory Data Analysis
 
-4️⃣ Model Development
+* Identified churn distribution
+* Visualized high-risk segments
+* Compared behavioral patterns
 
-Applied classification algorithms
+### 4️⃣ Model Development
 
-Split dataset into training & testing
+* Applied classification algorithms
+* Split dataset into training & testing
+* Compared multiple model performances
 
-Compared multiple model performances
+### 5️⃣ Model Evaluation
 
-5️⃣ Model Evaluation
+* Accuracy
+* Precision
+* Recall
+* F1-Score
+* Confusion Matrix
 
-Accuracy
+---
 
-Precision
-
-Recall
-
-F1-Score
-
-Confusion Matrix
-
-🧠 Machine Learning Approach
+## 🧠 Machine Learning Approach
 
 The project focuses on supervised classification models for churn prediction.
 Performance was evaluated to identify the most reliable model for real-world deployment.
 
 The emphasis was not just on accuracy, but also on minimizing false negatives (important in churn prediction).
 
-📊 Sample Insights
+---
 
-Certain customer behavior patterns significantly increase churn probability.
+## 📊 Sample Insights
 
-Feature importance analysis helps identify high-impact variables.
+* Certain customer behavior patterns significantly increase churn probability.
+* Feature importance analysis helps identify high-impact variables.
+* Model evaluation metrics guide retention strategy decisions.
 
-Model evaluation metrics guide retention strategy decisions.
+---
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```
 git clone https://github.com/Manthan1125/Customer-Churn-Prediction.git
-2️⃣ Navigate to Project Folder
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```
 cd Customer-Churn-Prediction
-3️⃣ Install Dependencies
+```
+
+### 3️⃣ Install Dependencies
+
+```
 pip install -r requirements.txt
-4️⃣ Run the Notebooks
+```
+
+### 4️⃣ Run the Notebooks
 
 Open Jupyter Notebook and execute step-by-step workflow.
 
-🔮 Future Improvements
+---
 
-Hyperparameter tuning
+## 🔮 Future Improvements
 
-Deployment using Flask / Streamlit
+* Hyperparameter tuning
+* Deployment using Flask / Streamlit
+* Real-time churn prediction API
+* Interactive dashboard integration
+* Advanced ensemble models
 
-Real-time churn prediction API
+---
 
-Interactive dashboard integration
+## 👨‍💻 Author
 
-Advanced ensemble models
-
-👨‍💻 Author
-
-Manthan Dhiman
-MIHIR WATRANA 
+**Manthan Dhiman**
 Computer Science & Engineering
+
