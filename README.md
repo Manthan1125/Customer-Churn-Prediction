@@ -169,7 +169,7 @@ Open Jupyter Notebook and execute step-by-step workflow.
 
 ## 👨‍💻 Author
 
-**Manthan Dhiman**
+**MANTHAN DHIMAN**
 **MIHIR WATRANA**
 Computer Science & Engineering
 
